@@ -1,0 +1,72 @@
+body {
+    background-color:grey;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.image img {
+    float: left;
+    width: 50;
+    height: 80;
+    height: auto;
+}
+
+.samsung-giveaway {
+    color:lavenderblush;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.giveaway {
+    margin-bottom: 20px;
+}
+
+.lorem {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.countdown-element {
+    font-size: 2em;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.text {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (max-width: 768px) {
+    .countdown {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
+}
